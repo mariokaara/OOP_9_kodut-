@@ -17,9 +17,10 @@ public class Tsensuur {
             while (rida != null) {
                 String[] masiiv = rida.split(" ");
                 for (String i: masiiv) {
-                    if(keelatud.contains(i)) {
-
-                    } else {
+                    if (i.equals("")) {
+                        System.exit(1);
+                    }
+                    if(!keelatud.contains(i)) {
                         System.out.println(i);
                     }
                 }

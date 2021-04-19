@@ -17,7 +17,7 @@ public class TekstiAnalüsaator {
             while (rida != null) {
                 String[] massiiv = rida.split(" ");
                 for (String i : massiiv) {
-                    if (i.equalsIgnoreCase(sõne)) {
+                    if (i.contains(sõne)) {
                         loendur += 1;
                     }
                 }

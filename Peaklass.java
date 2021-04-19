@@ -8,8 +8,8 @@ public class Peaklass {
         Tunniplaan tunniplaan2 = new Tunniplaan("tunniplaan.txt");
         System.out.println(tunniplaan2.toString());
 
-        TekstiAnalüsaator ta = new TekstiAnalüsaator("fail.txt");
-        System.out.println(ta.sõneEsinemisteArv("Või"));
+        TekstiAnalüsaator ta = new TekstiAnalüsaator("romaan.txt");
+        System.out.println(ta.sõneEsinemisteArv("kes"));
 
         Mp3Analüsaator analüsaator = new Mp3Analüsaator("musa.mp3");
         System.out.println(analüsaator.onKantri());
